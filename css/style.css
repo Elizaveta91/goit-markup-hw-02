@@ -1,0 +1,31 @@
+:root {
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+}
+
+body {
+
+    font-family: Roboto, sans-serif;
+    background-color: #e5e5e5;
+    color: var(--primary-text-color);
+}
+
+.page-header {
+    background:#FFFFFF
+
+}
+.logo {
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+         color: #2196F3;
+}
+    .logo-header:hover {color: var(--accent-color);
+}
+         .logo:focus {
+             color: var(--accent-color);
+         }
+    
