@@ -1,31 +1,121 @@
 :root {
 --primary-text-color:#757575;
 --title-text-color:#212121;
---accent-color:#2196F3;
-}
+--accent-color:#2196F3;}
 
 body {
-
     font-family: Roboto, sans-serif;
     background-color: #e5e5e5;
-    color: var(--primary-text-color);
-}
+    color: var(--primary-text-color);}
 
+/* Секція Хедер */
 .page-header {
-    background:#FFFFFF
-
-}
+    background:#FFFFFF}
 .logo {
-        font-family: Raleway, sans-serif;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
-        letter-spacing: 0.03em;
-         color: #2196F3;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #2196F3;}
+.logo-header:hover, 
+.logo-header:focus {
+    color: var(--accent-color);}
+.header-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    }
+.current {color: var(--accent-color)}
+.link {color: var(--title-text-color)}
+.auht-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;}
+
+/* Секція Герой */
+.hero {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #2F303A;
 }
-    .logo-header:hover {color: var(--accent-color);
+.hero-button {
+    background: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
-         .logo:focus {
-             color: var(--accent-color);
-         }
-    
+
+/* Секція особливості */
+.features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+.studio-features {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+} 
+
+/* Секція Чим ми займаємося */
+.about,
+.team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/* Наша команда */
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.job {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/* Наші роботи, portfolio */
+.por-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background: #F5F4FA;
+}
+.skills {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+.group {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
