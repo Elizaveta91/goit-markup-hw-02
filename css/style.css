@@ -1,121 +1,152 @@
 :root {
 --primary-text-color:#757575;
 --title-text-color:#212121;
---accent-color:#2196F3;}
+--accent-color:#2196F3;
+--additional-color: #FFFFFF;}
 
 body {
+    color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     background-color: #e5e5e5;
-    color: var(--primary-text-color);}
+    letter-spacing: 0.03em}
+
+ul {list-style: none;}
 
 /* Секція Хедер */
-.page-header {
-    background:#FFFFFF}
+.page-header {background-color: var(--additional-color);}
+.page-header:hover,
+.page-header:focus {color: var(--accent-color);}
+
 .logo {
+    color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    letter-spacing: 0.03em;
-    color: #2196F3;}
-.logo-header:hover, 
-.logo-header:focus {
-    color: var(--accent-color);}
+    text-decoration: none;}
+
+.logo-header {
+        color: var(--title-text-color);}
+        
 .header-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;}
+.current {
+    text-decoration: none;
+    color: var(--accent-color);}
+.link {
+    text-decoration: none;
+    color: var(--title-text-color);}
+.auht-nav {
+    color: var(--accent-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
     }
-.current {color: var(--accent-color)}
-.link {color: var(--title-text-color)}
-.auht-nav {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;}
+.auht {
+    color: var(--primary-text-color);
+    text-decoration: none;}
 
 /* Секція Герой */
 .hero {
+    color: var(--additional-color);
+    background: var(--primary-text-color);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    background: #2F303A;
 }
 .hero-button {
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--accent-color);
+    color: var(--additional-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* Секція особливості */
-.features {
+.feature {
+    color: var(--title-text-color);
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
-    color: var(--title-text-color)
 }
-.studio-features {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
+    
+.feature-list {
     color: var(--primary-text-color);
+    line-height: 1.7;
 } 
 
 /* Секція Чим ми займаємося */
 .about,
 .team {
+    color: var(--title-text-color);
+    background: #F5F4FA;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
 }
 
 /* Наша команда */
 .name {
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: #212121;
+    
 }
 .job {
-    font-weight: 400;
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.18;
-    letter-spacing: 0.03em;
-    color: #757575;
+    
 }
 /* Наші роботи, portfolio */
-.por-button {
+.button-success {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
-}
+    cursor: pointer;}
+
+.button-success:hover,
+.button-success:focus {   
+    color: var(--title-text-color);
+    background: #F5F4FA;}
+
+.button-success.all {
+    color: var(--additional-color);
+    background-color: var(--accent-color);}
+    
 .skills {
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
-    letter-spacing: 0.06em;
-    color: #212121;
+    letter-spacing: 0.06em;  
 }
 .group {
-    font-weight: 400;
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
+}
+.footer {
+   background-color: #2F303A;
+}
+.contact {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    text-decoration: none;
+}
+.contact-list {
+    color: var(--additional-color);
+    text-decoration: none;
+}
+.logo-footer {
+    color: var(--additional-color);
 }
