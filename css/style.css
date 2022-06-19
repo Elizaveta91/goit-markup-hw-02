@@ -134,7 +134,7 @@ ul {list-style: none;}
 
 .button-success:hover,
 .button-success:focus {   
-    color: var(--title-text-color);
+    color: var(--additional-color);
     background-color: var(--accent-color); }
 
 .button-success.all {
